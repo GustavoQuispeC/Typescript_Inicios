@@ -20,6 +20,7 @@ const audioPlayer: AudioPlayer = {
   },
 };
 
+//! Destructuring de Objetos
 const  song = 'Nueva Cancion';
 
 //renombrar
@@ -29,5 +30,16 @@ const {details}=audioPlayer;
 const {author} = details;
 
 console.log(`${song} - ${Another} - ${author}`);
+
+
+//!Destructuring de arreglos
+
+//const[p1,p2,trunks] = ['goku','vegeta','trunks'];
+//const[,,trunks]:string[] = ['goku','vegeta','trunks'];
+const[,,trunks = 'Not Found']:string[] = ['goku','vegeta'];
+
+
+console.log('Personaje 3 :' , trunks);
+
 
 export {};
