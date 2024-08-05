@@ -7,6 +7,7 @@ import "./topics/06_funtion-destructuring";
 import "./topics/07_import_export";
 import "./topics/08_classes";
 import "./topics/09_Generics";
+import "./topics/10_optional-chaining";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
